@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/lenovo/passion/proprietary/bin/radish:system/bin/radish \
     vendor/lenovo/passion/proprietary/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
-    vendor/lenovo/passion/proprietary/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/lenovo/passion/proprietary/bin/vfmAPITest:$(TARGET_COPY_OUT_VENDOR)/bin/vfmAPITest \
     vendor/lenovo/passion/proprietary/bin/vfmExTest:$(TARGET_COPY_OUT_VENDOR)/bin/vfmExTest \
     vendor/lenovo/passion/proprietary/bin/vfmService:$(TARGET_COPY_OUT_VENDOR)/bin/vfmService \
@@ -412,7 +411,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    TimeService \
     qcrilmsgtunnel \
     com.google.android.media.effects \
     com.google.widevine.software.drm \
