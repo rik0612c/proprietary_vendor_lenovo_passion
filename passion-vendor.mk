@@ -404,6 +404,12 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
     vendor/lenovo/passion/proprietary/vendor/qcril.db:$(TARGET_COPY_OUT_VENDOR)/qcril.db
 
+# Kang blobs from NX510J lineage-15.1
+PRODUCT_COPY_FILES += \
+    vendor/lenovo/passion/proprietary/vendor/lib64/lib-imsrcscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcscmservice.so \
+    vendor/lenovo/passion/proprietary/vendor/lib64/lib-imsrcscmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcscmclient.so \
+    vendor/lenovo/passion/proprietary/vendor/lib64/libvoice-svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvoice-svc.so
+
 PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
