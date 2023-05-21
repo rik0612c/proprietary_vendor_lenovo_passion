@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/bin/fast_charger_sw:$(TARGET_COPY_OUT_VENDOR)/bin/fast_charger_sw \
     vendor/lenovo/passion/proprietary/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
     vendor/lenovo/passion/proprietary/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
-    vendor/lenovo/passion/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/lenovo/passion/proprietary/vendor/bin/location-mq:$(TARGET_COPY_OUT_VENDOR)/bin/location-mq \
     vendor/lenovo/passion/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
     vendor/lenovo/passion/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
